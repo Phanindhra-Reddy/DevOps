@@ -9,5 +9,6 @@ An operator actively monitors the Kubernetes API for any alterations pertaining 
 
 Operators employ a control loop mechanism to iteratively verify the status of the resources under their management, executing any required modifications as needed. This capability enables automatic handling of tasks such as scaling, failover, and other operations, eliminating the need for human intervention.
 
-https://www.kubermatic.com/static/operator-blog-post.png
+![image](https://github.com/Phanindhra-Reddy/Cloud/assets/88189250/7e502a43-0642-4da1-8e32-fc7c409953a4)
+
 

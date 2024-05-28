@@ -6,7 +6,8 @@
 
 ## How Kubernetes Operators Work
 An operator actively monitors the Kubernetes API for any alterations pertaining to a particular resource, like a custom resource definition (CRD). Upon detecting a change, the operator initiates actions to uphold the intended configuration of the resource. For instance, if a stateful set gains a new replica, the operator orchestrates the allocation of required resources and ensures seamless integration of the new replica into the set.
+
 Operators employ a control loop mechanism to iteratively verify the status of the resources under their management, executing any required modifications as needed. This capability enables automatic handling of tasks such as scaling, failover, and other operations, eliminating the need for human intervention.
 
-![Uploading image.png…]()
+https://www.kubermatic.com/static/operator-blog-post.png
 

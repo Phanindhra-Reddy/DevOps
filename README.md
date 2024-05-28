@@ -3,3 +3,5 @@
 - Operators extend the Kubernetes API and leverage the native Kubernetes capabilities to manage application-specific tasks and lifecycle management.
 - The goal of an Operator is to put operational knowledge into software.
 - Operators typically provide controllers and Custom Resource Definitions (CRDs) that let you rapidly deploy new app instances without deep knowledge of their requirements or how they work.
+
+## How Kubernetes Operators Work

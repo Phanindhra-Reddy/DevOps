@@ -1,0 +1,19 @@
+apiVersion: api.phanindhra.reddy/v1alpha1
+kind: Scalar
+metadata:
+  labels:
+    app.kubernetes.io/name: scalar
+    app.kubernetes.io/instance: scalar-sample
+    app.kubernetes.io/part-of: sampleoperator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: sampleoperator
+  name: scalar-sample
+spec:
+  # TODO(user): Add fields here
+  start: 5 #AM UTC
+  end: 10 #AM UTC
+  replicas: 5
+  deployments:
+    - name: nginx
+      namespace: default
+

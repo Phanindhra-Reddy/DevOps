@@ -11,5 +11,17 @@ Operators employ a control loop mechanism to iteratively verify the status of th
 
 ![image](https://github.com/Phanindhra-Reddy/Cloud/assets/88189250/7e502a43-0642-4da1-8e32-fc7c409953a4)
 
+
 *What might an operator look like in more detail? Here's an example:*
-1.A Deployment that manages and monitors the pod.
+
+1. A Deployment that manages and monitors the pod.
+
+## What is the Operator Framework?
+The Operator Framework is an open-source toolkit designed to manage Kubernetes-native applications, referred to as Operators. Operators extend the capabilities of Kubernetes by automating the management of complex applications and resources. Using the Operator Framework, you can create, deploy, and manage custom resources, ensuring they maintain the desired state with minimal manual intervention.
+
+## How does the Operator Framework Works?
+The Operator Framework consists of three main components:
+
+1. *Operator SDK*: A set of tools and libraries for building operators. The SDK supports multiple languages and provides scaffolding, APIs, and utilities to simplify operator development.
+2. *Operator Lifecycle Manager (OLM):*: A component that helps manage the lifecycle of operators and their associated resources. OLM handles tasks such as installation, updates, and dependency management, ensuring operators are consistently deployed and maintained.
+3. *Operator Hub*: A central repository for sharing and discovering operators. Operator Hub provides a catalog of pre-built operators that can be easily deployed in Kubernetes clusters.

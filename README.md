@@ -23,5 +23,30 @@ The Operator Framework is an open-source toolkit designed to manage Kubernetes-n
 The Operator Framework consists of three main components:
 
 1. *Operator SDK*: A set of tools and libraries for building operators. The SDK supports multiple languages and provides scaffolding, APIs, and utilities to simplify operator development.
-2. *Operator Lifecycle Manager (OLM):*: A component that helps manage the lifecycle of operators and their associated resources. OLM handles tasks such as installation, updates, and dependency management, ensuring operators are consistently deployed and maintained.
+2. *Operator Lifecycle Manager (OLM)*: A component that helps manage the lifecycle of operators and their associated resources. OLM handles tasks such as installation, updates, and dependency management, ensuring operators are consistently deployed and maintained.
 3. *Operator Hub*: A central repository for sharing and discovering operators. Operator Hub provides a catalog of pre-built operators that can be easily deployed in Kubernetes clusters.
+
+## Languages supported by Operator SDK
+1. Go
+   - *he most comprehensive and widely adopted language for writing Kubernetes operators.*
+   - *he most comprehensive and widely adopted language for writing Kubernetes operators.*
+   - *Ideal for developers who want detailed control and performance.*
+2. Ansible
+   - *nables writing operators using Ansible playbooks and roles.*
+   - *Suitable for those who prefer a declarative and configuration-driven approach.*
+   - *Great for users with existing Ansible automation knowledge, allowing them to leverage their skills to manage Kubernetes resources.*
+3. Helm
+   - *Allows the creation of operators using Helm charts.*
+   - *Useful for managing Kubernetes applications that are already packaged as Helm charts.*
+   - *Simplifies the transition to operator-based management by leveraging the existing Helm ecosystem.*
+
+## Example Operators
+- Prometheus
+- ElasticSearch
+- ISTIO
+- ArgoCD
+- MinIO
+
+for more operators [OperatorHub](https://operatorhub.io/)
+
+

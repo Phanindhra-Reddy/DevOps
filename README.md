@@ -51,12 +51,12 @@ for more operators [OperatorHub](https://operatorhub.io/)
 
 ## How to create Operator
 Creation of an operator requires following softwares 
-- git
 - go version 1.21.0
 - docker version 17.03+
 - kubectl and access to kubernetes cluster
 - operator sdk
 
+Note*: I have choosen go as programming language to write an operator so I should have compatible go version installed.
 
 *[How to create Operator](https://sdk.operatorframework.io/docs/building-operators/golang/tutorial/)*
 

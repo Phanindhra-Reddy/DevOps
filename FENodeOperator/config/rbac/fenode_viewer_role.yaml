@@ -1,0 +1,27 @@
+# permissions for end users to view fenodes.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  labels:
+    app.kubernetes.io/name: clusterrole
+    app.kubernetes.io/instance: fenode-viewer-role
+    app.kubernetes.io/component: rbac
+    app.kubernetes.io/created-by: fenodeoperator
+    app.kubernetes.io/part-of: fenodeoperator
+    app.kubernetes.io/managed-by: kustomize
+  name: fenode-viewer-role
+rules:
+- apiGroups:
+  - api.phanindhra.reddy
+  resources:
+  - fenodes
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - api.phanindhra.reddy
+  resources:
+  - fenodes/status
+  verbs:
+  - get

@@ -11,4 +11,5 @@ Operators employ a control loop mechanism to iteratively verify the status of th
 
 ![image](https://github.com/Phanindhra-Reddy/Cloud/assets/88189250/7e502a43-0642-4da1-8e32-fc7c409953a4)
 
-
+*What might an operator look like in more detail? Here's an example:*
+1.A Deployment that manages and monitors the pod.
